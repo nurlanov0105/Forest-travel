@@ -1,0 +1,240 @@
+@media (max-width: 899px) {
+   .container {
+      /* width: 600px; */
+      width: 100%;
+   }
+
+   .header-top,
+   .header-content {
+      width: 100%;
+   }
+
+   .header-title {
+      font-size: 42px;
+      line-height: 1;
+   }
+
+   .header-descr {
+      font-size: 20px;
+   }
+
+   /* Main */
+
+   .main {
+      padding: 60px 0;
+   }
+
+   .main-row {
+      flex-direction: row-reverse;
+      margin-bottom: 60px;
+   }
+
+   .main-row:nth-child(even) {
+      flex-direction: row-reverse;
+   }
+
+   .main-image {
+      flex-shrink: 0;
+      width: 170px;
+      margin-right: 30px;
+   }
+
+   .main-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+
+   .main-content {
+      width: auto;
+   }
+
+   .main-header {
+      font-size: 42px;
+   }
+
+   .main-content-text {
+      font-size: 16px;
+   }
+
+   .button {
+      padding: 0 30px;
+      height: 46px;
+      font-size: 18px;
+      line-height: 46px;
+   }
+
+   /* Footer */
+
+   .footer {
+      padding: 40px 0;
+   }
+
+   .footer-row {
+      flex-wrap: wrap;
+   }
+
+   .footer-copyright {
+      width: auto;
+      order: 1;
+   }
+
+   .footer-widgets-wrapper {
+      width: 100%;
+      margin-bottom: 50px;
+      padding-top: 0px;
+   }
+
+   .footer-widgets-wrapper > * {
+      width: calc(50% - 15px);
+   }
+
+   /* Tours */
+
+   .tours-page {
+      padding: 40px 0;
+   }
+
+   .inner-header {
+      height: 80px;
+   }
+
+   .inner-header .logo {
+      font-size: 30px;
+   }
+
+   .inner-page-tours-header {
+      margin: 0px 0 40px;
+   }
+
+   .cards-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 30px;
+   }
+
+   .cards-first-row {
+      flex-direction: column;
+      row-gap: 30px;
+   }
+
+   .cards-second-row {
+      flex-direction: column;
+      row-gap: 30px;
+   }
+
+   .cards-second-row-column {
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+   }
+
+   .cards-first-row {
+      margin: 0;
+   }
+
+   .cards-second-row-column > * + * {
+      margin: 0;
+   }
+
+   .card {
+      width: 570px;
+   }
+
+   .card.bigger {
+      width: 570px;
+   }
+
+   .card.long {
+      width: 570px;
+   }
+
+   .card-title-wrapper {
+      padding: 0 25px;
+   }
+
+   /* Tracking */
+
+   .tracking-page {
+      padding: 20px 0 60px;
+   }
+
+   .row-article-page {
+      flex-direction: column-reverse;
+      align-items: center;
+      row-gap: 40px;
+      padding-top: 0;
+   }
+
+   .article-page-article {
+      width: 100%;
+   }
+
+   .article-page-article-header {
+      margin: 0px 0 20px 0;
+   }
+
+   .article-page-article p {
+      margin-bottom: 20px;
+   }
+
+   .article-page-nav {
+      width: 100%;
+   }
+
+   .article-page-nav-title {
+      margin: 0px 0 20px 0;
+   }
+
+   .article-page-nav-list a {
+      padding: 14px 0 16px;
+   }
+
+   .article-page-article p {
+      font-size: 16px;
+   }
+
+   .article-page-article a {
+      font-size: 16px;
+   }
+
+   .article-page-article img {
+      margin: 20px 0;
+   }
+
+   /* Contacts */
+
+   .contacts-page {
+      padding: 40px 0;
+   }
+
+   .contact-info {
+      flex-direction: column;
+      row-gap: 40px;
+   }
+
+   .contacts-header {
+      margin: 0px 0 30px 0;
+   }
+
+   .contact-block-title-map {
+      margin: 0 0 20px;
+   }
+
+   .contact-block-map {
+      width: 100%;
+   }
+
+   .form {
+      padding: 30px;
+   }
+
+   .form-group-title {
+      margin-bottom: 14px;
+   }
+
+   .input {
+      padding: 0 17px;
+   }
+}
